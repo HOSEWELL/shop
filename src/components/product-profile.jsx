@@ -20,7 +20,7 @@ const ProductProfile = () => {
                     <p className="card-text">{product.description} </p>
 
                     <Link to="/" state={product} className="btn btn-primary" style={{marginRight:"10em"}}>Home</Link>
-                    <Link className="btn btn-primary">Buy</Link>
+                    <Link to="/buy" className="btn btn-primary">Buy</Link>
                     
                 </div>
             </div>
