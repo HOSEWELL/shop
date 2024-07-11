@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
 
           <Link to="/productprofile" state={product} className="btn btn-primary" style={{marginRight:"5px"}}>Detail</Link>
 
-          <a href="#" className="btn btn-primary">Add to Cart</a>
+        
         </div>
       </div>
 
